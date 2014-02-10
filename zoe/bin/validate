@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/chess_chimp'
+
+begin
+  app = ChessChimp::Application.new(ARGV).run
+rescue StandardError => e
+  abort e.message
+end
