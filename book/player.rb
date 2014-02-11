@@ -1,13 +1,3 @@
-
-###########################################
-#
-#  Jennifer Galvin
-#  2/11/2014
-#
-############################################
-
-
-
 load 'Coordinates.rb'
 load 'ChessPiece.rb'
 load 'ChessBoard.rb'
